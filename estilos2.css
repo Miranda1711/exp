@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 249);
+   }
+   #contenedor{
+       width: 50%;
+       margin: auto;
+       height: 1500px;
+   }
+   
+   #cabecera{
+       position: sticky;
+       top: 0;
+       background-color: white;
+       z-index: 20;
+       border: 1px solid white;
+       background-color: rgb(255, 255, 249);
+   }
+   h1 {
+    padding: 20px;
+    text-align: center;
+    font-size: 5em;
+    font-style: italic;
+    letter-spacing:7px;
+    transition: .5s linear;
+    color:#341100;
+    text-shadow: 1px 3px 0px rgba(187, 176, 127, 0.986);
+   
+    }
+    h1 a {
+        text-decoration: none;
+        color:#341100;     
+    }
+    h1 a:hover{
+        color: rgba(187, 176, 127, 0.986);
+        text-shadow: 1px 3px 0px #341100 ;
+
+
+}
+       .menu{
+           display: flex;
+           list-style-type: none;
+           justify-content: center;
+           margin: 20px
+       }
+       .menu li{
+           padding: 12px;
+       }
+       .menu li a{
+           text-decoration: none;
+           padding: 10px;
+           text-transform: uppercase;
+           color: rgb(113, 116, 110);
+           font-size: 20px;
+           transition: all 400ms ease-in repeat ;     
+       }   
+       .menu li a:hover{
+           color:rgb(34, 9, 9);
+           box-shadow: 0px 9px 0px -7px rgba(168,0,0,0.55);
+           text-shadow: 0px 4px 3px rgba(120,145,167,0.6);
+       }
+       #contenido{
+           padding: 20px;
+
+           }
+
+           #galeria {
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            column-count: 3;
+        }
+
+           .muestra {
+            width: 30%;
+            margin: 10px;
+            text-align: center;
+
+        }
+        .muestra  img{
+            width: 100%;
+            transition: 0.9s;
+            opacity: 0.6;
+            box-shadow: 7px 9px 6px 0px rgba(13,7,7,0.75);
+
+        }
+        .muestra img:hover{
+            opacity: 1;
+        }
+        p{
+            font-size:20px;
+            margin: 15px;
+            font-style: italic;
+            font-family: "Arima", system-ui;
+            transition:0.8s ;
+            color:rgb(119, 107, 91);
+
+        }
+        p:hover{
+            transform:scale(1,1.4);
+            transition:.3s ease ;
+            color:rgb(119, 98, 67);
+            font-size: 22px;
+            text-shadow: 2px 3px 0px rgba(175, 219, 219, 0.6);
+
+        }
+        .redes2 {
+            display:flex;
+            justify-content: center;
+            list-style-type:none;
+            
+        
+        }
+        
+        .redes2 li img{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        filter: invert(0%);
+        padding: 5px;
+        }
+        .redes2 li img:hover{
+        cursor: pointer;
+        opacity: 0.5;
+        
+        }

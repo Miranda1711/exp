@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+   
+   background: linear-gradient(rgba(90, 67, 51, 0.4), rgba(46, 40, 29, 0.4)),url(img/cafe.avif)     no-repeat center center fixed;
+   background-size:cover;
+      min-height: 100vh;
+color: white;
+
+
+}
+body{
+    display: block;
+}
+#contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+h1{
+padding: 20px;
+text-align: center;
+font-size: 80px;
+font-style: italic;
+letter-spacing:7px;
+color:beige;
+
+}
+p span{
+    color: #e0dcd9;
+    font-style: oblique;
+    font-weight:bolder;
+    transition: .3s;
+    filter:opacity(1.4);
+}
+p span:hover{
+    color: #bba297;
+    filter: brightness(100%);
+    cursor: pointer;
+}
+p{
+    font-size: 28px;
+    margin: 18px;
+    text-align: center;
+    font-family: "Rethink Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  color:beige;
+
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 20px
+}
+.menu li{
+    padding: 12px;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 22px;
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    transition: 0.7s;
+
+}
+.menu li a:hover{
+    color: rgb(243, 238, 232);
+    background-color:rgb(39, 31, 21) ;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-shadow: 2px 3px 3px rgba(183,195,195,0.6);
+
+    
+}
+
+    .redes {
+        display:flex;
+        justify-content: center;
+        list-style-type:none;
+    }
+
+ .redes li img{
+    border-radius: 50%;
+    filter: invert(100%);
+    padding: 5px;
+    transition: 0.9s;
+}
+ .redes li img:hover{
+        cursor: pointer;
+    opacity: 0.4;
+}
+
